@@ -1,0 +1,113 @@
+*
+{
+    justify-content: center;
+    
+}
+.todo-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 16, 62)
+}
+header{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ivory;
+}
+.form-container{
+    padding: 30px;
+}
+.form
+{
+    display: flex;
+
+}
+.todo-input{
+    padding: 0.5rem;
+    border: 2px solid transparent;
+}
+.todo-btn{
+    padding: 0.5rem;
+    background-color:aqua;
+    border-color: transparent;
+}
+.todo-btn:hover
+{
+    cursor: pointer;
+    background-color: yellow;
+}
+.unlist{
+
+    gap:50px;
+    padding: 30px;
+    margin-bottom: 30px;
+    width:300px;
+
+   
+   
+}
+.unlist span {
+    display: inline-block;
+   overflow:hidden;
+    overflow-wrap:normal;
+    padding: 10px;
+    width: 50px;
+   
+}
+
+li{
+    height: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    /* flex-wrap:wrap; */
+    gap: 40px;
+    margin: 10px;
+   list-style-type: none;
+   background-color: ivory;
+   padding:10px;
+   border-radius: 50px;
+}
+.lists
+{
+  
+    display: flex;
+    gap:10px;
+    padding: 10px;
+    
+}
+.tick-btn
+{
+    background-color: green;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 50%;
+}
+.delete-btn
+{
+    background-color: rgb(255, 10, 10);
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 50%;
+}
+.clearall 
+{
+   
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 30px;
+    margin: 10px;
+}
+.clearall :hover{
+    background-color: red;
+    cursor: pointer;
+}
+.checkList
+{
+    text-decoration: line-through;
+}
+.notcheckList
+{
+    text-decoration:none;
+}
